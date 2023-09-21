@@ -1,4 +1,9 @@
+server:
+  port: 8761
+
 eureka:
+  instance:
+    hostname: yongyong
   client:
     registerWithEureka: false
     fetchRegistry: false
